@@ -10,6 +10,11 @@
     <buildtool_depend>ament_cmake</buildtool_depend>
     <build_depend>ament_cmake_auto</build_depend>
 
+    <depend>controller_interface</depend>
+    <depend>realtime_tools</depend>
+    <depend>geometry_msgs</depend>
+    <depend>tf2_msgs</depend>
+    <depend>nav_msgs</depend>
     <depend>legged_rl_controllers</depend>
 
     <export>
