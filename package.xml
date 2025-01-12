@@ -15,7 +15,12 @@
     <depend>geometry_msgs</depend>
     <depend>tf2_msgs</depend>
     <depend>nav_msgs</depend>
-    <depend>legged_rl_controllers</depend>
+    <depend>legged_controllers</depend>
+    <depend>onnxruntime_ament</depend>
+    <depend>pinocchio</depend>
+    <depend>hardware_interface</depend>
+    <depend>pluginlib</depend>
+    <depend>gazebo_ros2_control</depend>
 
     <export>
         <build_type>ament_cmake</build_type>
